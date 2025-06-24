@@ -7,23 +7,53 @@
 
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/language-switcher.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     {% if site.google_analytics %}
       {% include analytics.html %}
     {% endif %}
+    <style>
+      .language-switcher {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+        background-color: #f5f5f5;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px 10px;
+        font-size: 14px;
+        transition: background-color 0.3s ease;
+      }
+      .language-switcher:hover {
+        background-color: #e0e0e0;
+      }
+      .lang-content {
+        display: none;
+      }
+    </style>
   </head>
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <!-- Переключатель языка -->
+        <div class="language-switcher" onclick="toggleLanguage()">
+          <span class="language-switcher-text">EN</span>
+        </div>
+        
+        <h1><a href="{{ "/" | absolute_url }}">
+          <span class="lang-content lang-ru">{{ site.title.ru | default: site.github.repository_name }}</span>
+          <span class="lang-content lang-en">{{ site.title.en | default: site.github.repository_name }}</span>
+        </a></h1>
         
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <div class="lang-content lang-ru">{{ site.description.ru | default: site.github.project_tagline }}</div>
+        <div class="lang-content lang-en">{{ site.description.en | default: site.github.project_tagline }}</div>
 
         {% if site.show_downloads %}
         <ul class="downloads">
@@ -40,5 +70,16 @@
       </section>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/language-switcher.js" | relative_url }}"></script>
+    <script>
+      function toggleLanguage() {
+        const currentLang = document.documentElement.getAttribute('lang') || 'ru';
+        const newLang = currentLang === 'ru' ? 'en' : 'ru';
+        
+        localStorage.setItem('language', newLang);
+        document.documentElement.setAttribute('lang', newLang);
+        updateLanguageDisplay(newLang);
+      }
+    </script>
   </body>
 </html>

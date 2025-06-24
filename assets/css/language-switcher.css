@@ -1,0 +1,50 @@
+/* Стили для переключателя языков */
+.language-switcher {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.language-switcher:hover {
+  background-color: #e0e0e0;
+}
+
+.language-switcher-text {
+  font-weight: bold;
+}
+
+/* Стили для контента на разных языках */
+.lang-content {
+  display: none;
+}
+
+/* Показываем контент текущего языка */
+html[lang="ru"] .lang-ru,
+html[lang="en"] .lang-en {
+  display: block !important;
+}
+
+/* Для элементов, которые должны отображаться как inline */
+html[lang="ru"] span.lang-ru,
+html[lang="en"] span.lang-en {
+  display: inline !important;
+}
+
+/* Адаптивные стили для мобильных устройств */
+@media screen and (max-width: 480px) {
+  .language-switcher {
+    top: 5px;
+    right: 5px;
+    padding: 3px 8px;
+    font-size: 12px;
+  }
+} 
