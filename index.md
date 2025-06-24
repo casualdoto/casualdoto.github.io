@@ -91,6 +91,9 @@
     <li>
         <b>С нуля развернул production-сервер на Yandex Cloud:</b> установил и настроил <b>nginx</b>, обеспечил защищённое соединение по <b>HTTPS</b>, подключил домен и подготовил среду для масштабируемых веб-приложений.
     </li>
+        <li>
+        Реализовал <b>OpenAPI документацию</b> для удобного тестирования эндпоинтов через Swagger UI и быстрой проверки запросов.
+    </li>
     <li>
         Использовал фреймворк <b>Flask (Python)</b> и базу данных <b>PostgreSQL</b>.
     </li>
@@ -127,7 +130,7 @@
 <div style="margin-bottom: 40px; display: flex; justify-content: center;">
   <div style="box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 8px; overflow: hidden; width: 50%; max-width: 350px;">
     <img 
-      src="https://i.postimg.cc/SxyH9zQC/Screenshot-2.png" 
+      src="https://i.postimg.cc/6qRZ03cN/Screenshot-4.png" 
       alt="Один из экранов приложения"
       style="display: block; width: 100%;"
     />
@@ -136,3 +139,93 @@
     </div>
   </div>
 </div>
+
+### Менеджер задач на Spring Boot
+
+[![Static Badge](https://img.shields.io/badge/Open_on_GitHub-teal?logo=github)](https://github.com/casualdoto/java_task) <br>
+
+<div style="text-align: justify; margin-bottom: 25px;">
+  В учебных целях реализовал приложение - менеджер задач на Spring Boot.<br><br>
+
+  <b>Ключевые технологии:</b>
+  <ul style="margin:0 0 15px 24px; padding:0;">
+    <li><b>Spring Boot 3.4</b> — основа приложения с поддержкой REST API</li>
+    <li><b>Spring Data JPA</b> — доступ к данным через репозитории</li>
+    <li><b>MariaDB</b> (production) + <b>Flyway</b> — миграции схемы</li>
+    <li><b>Redis</b> — кэширование для прироста производительности</li>
+    <li><b>Kafka</b> — асинхронная обработка событий (создание / просрочка задач)</li>
+    <li><b>Docker &amp; Docker Compose</b> — контейнеризация приложения и инфраструктуры</li>
+    <li><b>JUnit 5 &amp; Mockito</b> + <b>JaCoCo</b> — покрытие тестами &gt; 80 %</li>
+  </ul>
+
+  <b>Реализованная функциональность:</b>
+  <ul style="margin:0 0 15px 24px; padding:0;">
+    <li>Управление пользователями — регистрация и авторизация</li>
+    <li<abbr title="Create / Read / Update / Delete">CRUD</abbr>-операции с задачами</li>
+    <li>Система уведомлений о новых и просроченных задачах</li>
+    <li>Асинхронный обмен сообщениями через <b>Kafka</b></li>
+    <li>Кэширование данных в <b>Redis</b> (настраиваемый TTL)</li>
+    <li>Профили окружения: <code>dev</code> / <code>prod</code></li>
+    <li>Полная контейнеризация с многоконтейнерной архитектурой</li>
+  </ul>
+
+  <b>Архитектурные особенности:</b>
+  <ul style="margin:0 0 15px 24px; padding:0;">
+    <li>Многоуровневая структура: контроллеры → сервисы → репозитории</li>
+    <li>Асинхронная обработка событий (Kafka + Scheduler для просроченных задач)</li>
+    <li>Redis-кэширование с дифференцированным TTL</li>
+    <li>Docker Compose — единая точка запуска всей экосистемы</li>
+  </ul>
+
+  <b>Достижения:</b>
+  <ul style="margin:0 0 0 24px; padding:0;">
+    <li>Покрытие кода тестами &gt; 80 %</li>
+    <li>Реализована микросервисная (event-driven) архитектура</li>
+    <li>Существенное сокращение времени отклика за счёт кэширования</li>
+  </ul>
+
+</div>
+
+### Backend часть для ML-проекта
+
+[![Static Badge](https://img.shields.io/badge/Open_on_GitHub-teal?logo=github)](https://github.com/casualdoto/labs_seminars_SPBSTU/tree/main) <br>
+
+<div style="text-align: justify; margin-bottom: 25px;">
+  <b>С декабря 2024 по март 2025 года</b> разрабатывался научно-исследовательский проект по предсказанию риска рака лёгких с применением машинного обучения. По итогам работы подготовлена научная статья, которая готовится к публикации в профильном журнале.<br><br>
+
+  <b>Ключевые технологии:</b>
+  <ul style="margin:0 0 15px 24px; padding:0;">
+    <li><b>Python 3.9</b> — основной язык программирования</li>
+    <li><b>Flask</b> — веб-фреймворк для создания REST API</li>
+    <li><b>PostgreSQL</b> — реляционная СУБД для хранения пользовательских данных</li>
+    <li><b>scikit-learn</b> — библиотека для построения и использования ML-моделей (SVM, KNN)</li>
+    <li><b>Docker &amp; Docker Compose</b> — контейнеризация и автоматизация запуска сервисов</li>
+  </ul>
+
+  <b>Реализованный функционал:</b>
+  <ul style="margin:0 0 15px 24px; padding:0;">
+    <li>REST API для взаимодействия с фронтендом</li>
+    <li>Эндпоинт <code>/predict</code> для приёма медицинских данных и возврата результатов</li>
+    <li>Интеграция обученной <b>SVM-модели</b> для расчёта вероятности заболевания</li>
+    <li>Сохранение истории прогнозов и пользовательских данных в <b>PostgreSQL</b></li>
+  </ul>
+
+  <b>Архитектурные решения:</b>
+  <ul style="margin:0 0 15px 24px; padding:0;">
+    <li>Микросервисная структура: фронтенд, бэкенд и база данных — как отдельные сервисы</li>
+    <li>Автоматическая инициализация таблиц при запуске приложения</li>
+    <li>Проверка доступности БД и настройка зависимостей между сервисами</li>
+    <li>Контейнеризация всех компонентов для кроссплатформенного развёртывания</li>
+  </ul>
+
+  <b>Особенности реализации:</b>
+  <ul style="margin:0 0 0 24px; padding:0;">
+    <li>Предварительно обученная ML-модель (<b>SVM</b>) встроена в API</li>
+    <li>Валидация и предварительная обработка входных данных</li>
+    <li>Вывод вероятности риска в процентном выражении</li>
+    <li>Хранение истории прогнозов для каждого пользователя</li>
+  </ul>
+</div>
+
+
+
