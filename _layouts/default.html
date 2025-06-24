@@ -15,21 +15,6 @@
       {% include analytics.html %}
     {% endif %}
     <style>
-      .language-switcher {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        cursor: pointer;
-        background-color: #f5f5f5;
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        padding: 5px 10px;
-        font-size: 14px;
-        transition: background-color 0.3s ease;
-      }
-      .language-switcher:hover {
-        background-color: #e0e0e0;
-      }
       .lang-content {
         display: none;
       }
@@ -38,15 +23,18 @@
   <body>
     <div class="wrapper">
       <header>
-        <!-- Переключатель языка -->
-        <div class="language-switcher" onclick="toggleLanguage()">
-          <span class="language-switcher-text">EN</span>
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <h1 style="margin-bottom: 0;"><a href="{{ "/" | absolute_url }}">
+            <span class="lang-content lang-ru">{{ site.title.ru | default: site.github.repository_name }}</span>
+            <span class="lang-content lang-en">{{ site.title.en | default: site.github.repository_name }}</span>
+          </a></h1>
+          
+          <!-- Переключатель языка -->
+          <div class="language-switcher" onclick="toggleLanguage()">
+            <span class="language-switcher-text lang-content lang-ru">EN</span>
+            <span class="language-switcher-text lang-content lang-en">RU</span>
+          </div>
         </div>
-        
-        <h1><a href="{{ "/" | absolute_url }}">
-          <span class="lang-content lang-ru">{{ site.title.ru | default: site.github.repository_name }}</span>
-          <span class="lang-content lang-en">{{ site.title.en | default: site.github.repository_name }}</span>
-        </a></h1>
         
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />

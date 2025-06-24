@@ -35,9 +35,5 @@ function updateLanguageDisplay(lang) {
         }
     });
     
-    // Обновляем текст кнопки переключения
-    const switcherText = document.querySelector('.language-switcher-text');
-    if (switcherText) {
-        switcherText.textContent = lang === 'ru' ? 'EN' : 'RU';
-    }
+    // Текст кнопки переключения обновляется автоматически через CSS
 } 
