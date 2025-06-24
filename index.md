@@ -84,7 +84,7 @@
 ### Мобильное приложение TE-Manager
 
 <div style="text-align: justify; margin-bottom: 25px;">
-<b>С февраля 2024 года</b> в качестве фрилансера развиваю backend для мобильного приложения по управлению задачами и эмоциями.<br><br>
+<b>С февраля 2024 года</b> в качестве фрилансера развиваю backend для мобильного приложения по управлению задачами и эмоциями. Наша команда <b>стала победителем гранта</b> размером в 1 млн рублей V очереди конкурса <b><a href="https://fasie.ru/upload/docs/Перечень%20победителей%20конкурса%20«Студенческий%20стартап»%20(очередь%20V).pdf" target="_blank">"Студенческий стартап"</a>.</b><br><br>
 
 <b>Ключевые достижения:</b>
 <ul style="margin:0 0 15px 24px; padding:0;">
@@ -122,4 +122,17 @@
 <div style="margin-top:8px;">
     <b>Сайт проекта:</b> <a href="https://temanager.com" target="_blank" style="color:#0065a3; text-decoration:underline;">temanager.com</a>
 </div>
+</div>
+
+<div style="margin-bottom: 40px; display: flex; justify-content: center;">
+  <div style="box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 8px; overflow: hidden; width: 50%; max-width: 350px;">
+    <img 
+      src="https://i.postimg.cc/SxyH9zQC/Screenshot-2.png" 
+      alt="Один из экранов приложения"
+      style="display: block; width: 100%;"
+    />
+    <div style="background-color: #f8f8f8; padding: 10px; text-align: center;">
+      <p style="margin: 0; font-style: italic; font-size: 14px;">Один из экранов приложения</p>
+    </div>
+  </div>
 </div>
