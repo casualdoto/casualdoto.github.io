@@ -90,6 +90,60 @@
   </ul>
 </div>
 
+<div style="margin: 40px 0; display: flex; justify-content: center;">
+  <div style="box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 8px; overflow: hidden; width: 90%; max-width: 950px;">
+    <img 
+      src="https://i.postimg.cc/LXNR2VSK/Screenshot-6.png" 
+      alt="Экран анализа валютных курсов"
+      style="display: block; width: 100%;"
+    />
+    <div style="background-color: #f8f8f8; padding: 10px; text-align: center;">
+      <p class="lang-content lang-ru" style="margin: 0; font-style: italic; font-size: 14px;">
+        Экран анализа валютных курсов в приложении
+      </p>
+      <p class="lang-content lang-en" style="margin: 0; font-style: italic; font-size: 14px;">
+        Currency rate analysis screen in the app
+      </p>
+    </div>
+  </div>
+</div>
+
+<div style="margin: 40px 0; display: flex; justify-content: center;">
+  <div style="box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 8px; overflow: hidden; width: 90%; max-width: 950px;">
+    <img 
+      src="https://i.postimg.cc/k5qkGtfn/Screenshot-7.png" 
+      alt="Экран анализа валютных курсов"
+      style="display: block; width: 100%;"
+    />
+    <div style="background-color: #f8f8f8; padding: 10px; text-align: center;">
+      <p class="lang-content lang-ru" style="margin: 0; font-style: italic; font-size: 14px;">
+        Экран анализа криптовалютных курсов в приложении
+      </p>
+      <p class="lang-content lang-en" style="margin: 0; font-style: italic; font-size: 14px;">
+        Cryptocurrency rate analysis screen in the app
+      </p>
+    </div>
+  </div>
+</div>
+
+<div style="margin: 40px 0; display: flex; justify-content: center;">
+  <div style="box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 8px; overflow: hidden; width: 60%; max-width: 400px;">
+    <img 
+      src="https://i.postimg.cc/mgsb3k8n/Screenshot-8.png" 
+      alt="Пример работы Telegram-бота"
+      style="display: block; width: 100%;"
+    />
+    <div style="background-color: #f8f8f8; padding: 10px; text-align: center;">
+      <p class="lang-content lang-ru" style="margin: 0; font-style: italic; font-size: 14px;">
+        Пример работы Telegram-бота: обновления валют и криптовалют
+      </p>
+      <p class="lang-content lang-en" style="margin: 0; font-style: italic; font-size: 14px;">
+        Example of Telegram bot in action: currency and crypto updates
+      </p>
+    </div>
+  </div>
+</div>
+
 ### <span class="lang-content lang-ru">Мобильное приложение TE-Manager</span><span class="lang-content lang-en">TE-Manager Mobile App</span>
 
 <div class="lang-content lang-ru" style="text-align: justify; margin-bottom: 25px;">
