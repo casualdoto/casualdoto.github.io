@@ -8,6 +8,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // Показываем элементы текущего языка и скрываем остальные
     updateLanguageDisplay(currentLang);
     
+    // Обновляем заголовок страницы при загрузке
+    updatePageTitle(currentLang);
+    
     // Инициализируем переключатель языка
     const langSwitcher = document.getElementById('language-switcher');
     if (langSwitcher) {
@@ -35,5 +38,18 @@ function updateLanguageDisplay(lang) {
         }
     });
     
+    // Обновляем заголовок страницы в зависимости от языка
+    updatePageTitle(lang);
+    
     // Текст кнопки переключения обновляется автоматически через CSS
+}
+
+// Функция для обновления заголовка страницы
+function updatePageTitle(lang) {
+    const titles = {
+        'ru': 'Портфолио | Хрестьяновский Даниил',
+        'en': 'Portfolio | Daniil Khrestianovskii'
+    };
+    
+    document.title = titles[lang] || titles['en'];
 } 
