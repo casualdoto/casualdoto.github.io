@@ -7,7 +7,7 @@
 [![Static Badge](https://img.shields.io/badge/Open_on_GitHub-teal?logo=github)](https://github.com/casualdoto/go-currency-tracker) <br>
 
 <div class="lang-content lang-ru" style="text-align: justify; margin-bottom: 25px;">
-  <b>В рамках практики в университете</b> разрабатывался проект по отслеживанию валютных курсов с применением микросервисной архитектуры. По итогам работы создан полнофункциональный сервис для мониторинга курсов валют Центрального Банка России и криптовалют (Binance API) с веб-интерфейсом и Telegram ботом.<br><br>
+  <b>В рамках практики в университете</b> разрабатывался проект по отслеживанию валютных курсов. По итогам работы создан полнофункциональный сервис для мониторинга курсов валют Центрального Банка России и криптовалют (Binance API) с веб-интерфейсом и Telegram ботом.<br><br>
 
   <b>Ключевые технологии:</b>
   <ul style="margin:0 0 15px 24px; padding:0;">
@@ -32,7 +32,7 @@
 
   <b>Архитектурные решения:</b>
   <ul style="margin:0 0 15px 24px; padding:0;">
-    <li>Микросервисная структура: веб-сервер, Telegram бот и база данных — как отдельные сервисы</li>
+    <li>Docker контейнеры: веб-сервер, Telegram бот и база данных</li>
     <li>Автоматическая инициализация таблиц при запуске приложения</li>
     <li>Проверка доступности БД и настройка зависимостей между сервисами</li>
     <li>Контейнеризация всех компонентов для кроссплатформенного развёртывания</li>
@@ -49,7 +49,7 @@
 </div>
 
 <div class="lang-content lang-en" style="text-align: justify; margin-bottom: 25px;">
-  <b>As part of university practice</b>, a project for tracking currency exchange rates using microservice architecture was developed. As a result of the work, a fully functional service was created for monitoring Central Bank of Russia currency rates and cryptocurrencies (Binance API) with a web interface and Telegram bot.<br><br>
+  <b>As part of university practice</b>, a project for tracking currency exchange rates was developed. As a result of the work, a fully functional service was created for monitoring Central Bank of Russia currency rates and cryptocurrencies (Binance API) with a web interface and Telegram bot.<br><br>
 
   <b>Key technologies:</b>
   <ul style="margin:0 0 15px 24px; padding:0;">
@@ -74,7 +74,7 @@
 
   <b>Architectural solutions:</b>
   <ul style="margin:0 0 15px 24px; padding:0;">
-    <li>Microservice structure: web server, Telegram bot, and database as separate services</li>
+    <li>Docker containers: web server, Telegram bot, and database</li>
     <li>Automatic table initialization when launching the application</li>
     <li>Database availability check and configuration of dependencies between services</li>
     <li>Containerization of all components for cross-platform deployment</li>
