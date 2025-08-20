@@ -43,6 +43,26 @@
         На старте проекта интегрировал решения в <b>Java Android приложение</b>.
     </li>
 </ul>
+
+<b>Техническое развитие и модернизация:</b>
+<ul style="margin:0 0 15px 24px; padding:0;">
+    <li>
+        <b>Микросервисная архитектура:</b> Переписал монолитное Flask-приложение на микросервисную архитектуру с использованием <b>FastAPI (Python)</b> и <b>Go-сервиса</b> для лучшей производительности. Внедрил Docker-контейнеризацию для упрощения развертывания и масштабирования. Реализовал взаимодействие между сервисами через HTTP API с валидацией данных.
+    </li>
+    <li>
+        <b>Модернизация безопасности:</b> Полностью обновил JWT-систему: заменил HS256 на RS256 (асимметричная криптография). Внедрил систему отзыва токенов (blacklist) с возможностью принудительного выхода со всех устройств. Добавил device fingerprinting для привязки токенов к устройствам. Реализовал каскадный отзыв токенов при обнаружении компрометации.
+    </li>
+    <li>
+        <b>Система аутентификации без паролей:</b> Заменил традиционную аутентификацию на систему кодов верификации через email/SMS. Интегрировал Redis для кэширования кодов и rate limiting.
+    </li>
+    <li>
+        <b>Технические улучшения:</b> Внедрил версионирование API. Добавил comprehensive health checks для всех сервисов. Реализовал детальное логирование и мониторинг производительности. Создал систему фоновых задач для автоматической очистки устаревших данных.
+    </li>
+    <li>
+        <b>Инфраструктура:</b> Настроил nginx с улучшенной конфигурацией для микросервисов. Интегрировал Redis для кэширования и управления состоянием. Создал Docker Compose конфигурацию для локальной разработки и тестирования.
+    </li>
+</ul>
+
 <div style="margin-top:8px;">
     <b>Сайт проекта:</b> <a href="https://temanager.com" target="_blank" style="color:#0065a3; text-decoration:underline;">temanager.com</a>
 </div>
@@ -87,6 +107,26 @@
         Integrated solutions into a <b>Java Android application</b> at the start of the project.
     </li>
 </ul>
+
+<b>Technical Development and Modernization:</b>
+<ul style="margin:0 0 15px 24px; padding:0;">
+    <li>
+        <b>Microservice Architecture:</b> Rewrote the monolithic Flask application to a microservice architecture using <b>FastAPI (Python)</b> and <b>Go service</b> for better performance. Implemented Docker containerization for simplified deployment and scaling. Realized inter-service communication through HTTP API with data validation.
+    </li>
+    <li>
+        <b>Security Modernization:</b> Completely updated the JWT system: replaced HS256 with RS256 (asymmetric cryptography). Implemented a token revocation system (blacklist) with the ability to force logout from all devices. Added device fingerprinting for token binding to devices. Implemented cascading token revocation upon compromise detection.
+    </li>
+    <li>
+        <b>Passwordless Authentication System:</b> Replaced traditional authentication with a verification code system via email/SMS. Integrated Redis for code caching and rate limiting. 
+    </li>
+    <li>
+        <b>Technical Improvements:</b> Implemented API versioning. Added comprehensive health checks for all services. Implemented detailed logging and performance monitoring. Created a background task system for automatic cleanup of outdated data.
+    </li>
+    <li>
+        <b>Infrastructure:</b> Configured nginx with improved configuration for microservices. Integrated Redis for caching and state management. Created Docker Compose configuration for local development and testing.
+    </li>
+</ul>
+
 <div style="margin-top:8px;">
     <b>Project website:</b> <a href="https://temanager.com" target="_blank" style="color:#0065a3; text-decoration:underline;">temanager.com</a>
 </div>
