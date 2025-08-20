@@ -2,6 +2,94 @@
 ---
 ## <span class="lang-content lang-ru">Backend разработка</span><span class="lang-content lang-en">Backend Development</span>
 
+### <span class="lang-content lang-ru">Go Currency Tracker</span><span class="lang-content lang-en">Go Currency Tracker</span>
+
+[![Static Badge](https://img.shields.io/badge/Open_on_GitHub-teal?logo=github)](https://github.com/casualdoto/go-currency-tracker) <br>
+
+<div class="lang-content lang-ru" style="text-align: justify; margin-bottom: 25px;">
+  <b>В рамках практики в университете</b> разрабатывался проект по отслеживанию валютных курсов с применением микросервисной архитектуры. По итогам работы создан полнофункциональный сервис для мониторинга курсов валют Центрального Банка России и криптовалют (Binance API) с веб-интерфейсом и Telegram ботом.<br><br>
+
+  <b>Ключевые технологии:</b>
+  <ul style="margin:0 0 15px 24px; padding:0;">
+    <li><b>Go 1.23</b> — основной язык программирования для высокопроизводительных сервисов</li>
+    <li><b>Chi Router</b> — HTTP роутер для создания REST API</li>
+    <li><b>PostgreSQL</b> — реляционная СУБД для хранения исторических данных курсов валют</li>
+    <li><b>Docker &amp; Docker Compose</b> — контейнеризация и автоматизация запуска микросервисов</li>
+    <li><b>Telegram Bot API</b> — интеграция с мессенджером для уведомлений</li>
+    <li><b>Binance API</b> — получение актуальных курсов криптовалют</li>
+  </ul>
+
+  <b>Реализованный функционал:</b>
+  <ul style="margin:0 0 15px 24px; padding:0;">
+    <li>REST API для взаимодействия с фронтендом и внешними системами</li>
+    <li>Эндпоинты для получения курсов валют ЦБР с историческими данными</li>
+    <li>Интеграция с Binance API для курсов криптовалют в рублях</li>
+    <li>Веб-интерфейс с интерактивными графиками и экспортом в Excel</li>
+    <li>Telegram бот с подписками на валюты и криптовалюты</li>
+    <li>Автоматическое обновление курсов валют ежедневно в 23:59 UTC</li>
+    <li>Мониторинг криптовалют каждые 15 минут с умными уведомлениями</li>
+  </ul>
+
+  <b>Архитектурные решения:</b>
+  <ul style="margin:0 0 15px 24px; padding:0;">
+    <li>Микросервисная структура: веб-сервер, Telegram бот и база данных — как отдельные сервисы</li>
+    <li>Автоматическая инициализация таблиц при запуске приложения</li>
+    <li>Проверка доступности БД и настройка зависимостей между сервисами</li>
+    <li>Контейнеризация всех компонентов для кроссплатформенного развёртывания</li>
+    <li>Graceful shutdown для корректного завершения работы сервисов</li>
+  </ul>
+
+  <b>Особенности реализации:</b>
+  <ul style="margin:0 0 0 24px; padding:0;">
+    <li>Хранение истории курсов валют и криптовалют с временными метками</li>
+    <li>Система подписок пользователей на уведомления по конкретным валютам</li>
+    <li>Экспорт исторических данных в Excel формат для анализа</li>
+    <li>OpenAPI документация с Swagger UI для разработчиков</li>
+  </ul>
+</div>
+
+<div class="lang-content lang-en" style="text-align: justify; margin-bottom: 25px;">
+  <b>As part of university practice</b>, a project for tracking currency exchange rates using microservice architecture was developed. As a result of the work, a fully functional service was created for monitoring Central Bank of Russia currency rates and cryptocurrencies (Binance API) with a web interface and Telegram bot.<br><br>
+
+  <b>Key technologies:</b>
+  <ul style="margin:0 0 15px 24px; padding:0;">
+    <li><b>Go 1.23</b> — main programming language for high-performance services</li>
+    <li><b>Chi Router</b> — HTTP router for creating REST API</li>
+    <li><b>PostgreSQL</b> — relational DBMS for storing historical currency rate data</li>
+    <li><b>Docker &amp; Docker Compose</b> — containerization and automation of microservice deployment</li>
+    <li><b>Telegram Bot API</b> — integration with messenger for notifications</li>
+    <li><b>Binance API</b> — obtaining current cryptocurrency rates</li>
+  </ul>
+
+  <b>Implemented functionality:</b>
+  <ul style="margin:0 0 15px 24px; padding:0;">
+    <li>REST API for interaction with frontend and external systems</li>
+    <li>Endpoints for obtaining CBR currency rates with historical data</li>
+    <li>Integration with Binance API for cryptocurrency rates in rubles</li>
+    <li>Web interface with interactive charts and Excel export</li>
+    <li>Telegram bot with subscriptions to currencies and cryptocurrencies</li>
+    <li>Automatic currency rate updates daily at 23:59 UTC</li>
+    <li>Cryptocurrency monitoring every 15 minutes with smart notifications</li>
+  </ul>
+
+  <b>Architectural solutions:</b>
+  <ul style="margin:0 0 15px 24px; padding:0;">
+    <li>Microservice structure: web server, Telegram bot, and database as separate services</li>
+    <li>Automatic table initialization when launching the application</li>
+    <li>Database availability check and configuration of dependencies between services</li>
+    <li>Containerization of all components for cross-platform deployment</li>
+    <li>Graceful shutdown for proper service termination</li>
+  </ul>
+
+  <b>Implementation features:</b>
+  <ul style="margin:0 0 0 24px; padding:0;">
+    <li>Storage of currency and cryptocurrency rate history with timestamps</li>
+    <li>User subscription system for notifications on specific currencies</li>
+    <li>Export of historical data to Excel format for analysis</li>
+    <li>OpenAPI documentation with Swagger UI for developers</li>
+  </ul>
+</div>
+
 ### <span class="lang-content lang-ru">Мобильное приложение TE-Manager</span><span class="lang-content lang-en">TE-Manager Mobile App</span>
 
 <div class="lang-content lang-ru" style="text-align: justify; margin-bottom: 25px;">
