@@ -147,7 +147,7 @@
 ### <span class="lang-content lang-ru">Мобильное приложение TE-Manager</span><span class="lang-content lang-en">TE-Manager Mobile App</span>
 
 <div class="lang-content lang-ru" style="text-align: justify; margin-bottom: 25px;">
-<b>С сентября 2022 года</b> в качестве фрилансера развиваю backend для мобильного приложения по управлению задачами и эмоциями. Наша команда <b>стала победителем гранта</b> размером в 1 млн рублей V очереди конкурса <b><a href="https://fasie.ru/upload/docs/Перечень%20победителей%20конкурса%20«Студенческий%20стартап»%20(очередь%20V).pdf" target="_blank">"Студенческий стартап"</a>.</b><br><br>
+<b>С марта 2024 года</b> в качестве фрилансера развиваю backend для мобильного приложения по управлению задачами и эмоциями. Наша команда <b>стала победителем гранта</b> размером в 1 млн рублей V очереди конкурса <b><a href="https://fasie.ru/upload/docs/Перечень%20победителей%20конкурса%20«Студенческий%20стартап»%20(очередь%20V).pdf" target="_blank">"Студенческий стартап"</a>.</b><br><br>
 
 <b>Ключевые достижения:</b>
 <ul style="margin:0 0 15px 24px; padding:0;">
@@ -211,7 +211,7 @@
 </div>
 
 <div class="lang-content lang-en" style="text-align: justify; margin-bottom: 25px;">
-<b>Since September 2022</b>, I have been working as a freelancer developing the backend for a mobile application for task and emotion management. Our team <b>won a grant</b> of 1 million rubles in the V round of the <b><a href="https://fasie.ru/upload/docs/Перечень%20победителей%20конкурса%20«Студенческий%20стартап»%20(очередь%20V).pdf" target="_blank">"Student Startup"</a> competition.</b><br><br>
+<b>Since March 2024</b>, I have been working as a freelancer developing the backend for a mobile application for task and emotion management. Our team <b>won a grant</b> of 1 million rubles in the V round of the <b><a href="https://fasie.ru/upload/docs/Перечень%20победителей%20конкурса%20«Студенческий%20стартап»%20(очередь%20V).pdf" target="_blank">"Student Startup"</a> competition.</b><br><br>
 
 <b>Key achievements:</b>
 <ul style="margin:0 0 15px 24px; padding:0;">
