@@ -146,7 +146,7 @@ for main, result in bullets_te:
     story.append(Paragraph(f'• {main} <font color="#64748B">— {result}</font>', s_bullet))
 
 story.append(Spacer(1, 1))
-story.append(achievement_bullet('<b>Won 10k$ government grant</b> — "Student Startup" competition (V round, 2024)'))
+story.append(achievement_bullet('<b>Won 10k$ grant</b> — "Student Startup" competition (V round, 2024)'))
 story.append(Spacer(1, 2.5*mm))
 
 # Team Avulus
