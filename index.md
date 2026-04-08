@@ -459,7 +459,7 @@
 ### Dota 2 Avulus
 
 <div class="lang-content lang-ru" style="text-align: justify; margin-bottom: 25px;">
-    <b>С октября 2024 года</b> работаю фриланс-аналитиком в профессиональной команде по Dota 2 — <b>Avulus</b>.
+    <b>С октября 2024 года по апрель 2026</b> работал фриланс-аналитиком в профессиональной команде по Dota 2 — <b>Avulus</b>.
     <br><br>
     <b>Ключевые задачи:</b>
     <ul style="margin:0 0 10px 24px; padding:0;">
@@ -504,7 +504,7 @@
 </div>
 
 <div class="lang-content lang-en" style="text-align: justify; margin-bottom: 25px;">
-    <b>Since October 2024</b>, I have been working as a freelance analyst for the professional Dota 2 team — <b>Avulus</b>.
+    <b>From October 2024 to April 2026</b>, I have been working as a freelance analyst for the professional Dota 2 team — <b>Avulus</b>.
     <br><br>
     <b>Key tasks:</b>
     <ul style="margin:0 0 10px 24px; padding:0;">
