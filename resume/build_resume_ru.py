@@ -150,7 +150,7 @@ story.append(achievement_bullet('<b>Команда победила в конк�
 story.append(Spacer(1, 2.5*mm))
 
 # Team Avulus
-story.append(Paragraph('Team Avulus — профессиональная Dota 2 организация', s_company))
+story.append(Paragraph('Team Avulus — профессиональная Dota 2 команда', s_company))
 story.append(Paragraph('Дата-инженер и аналитик · Октябрь 2024 — Апрель 2026 · Удалённо', s_role))
 story.append(Spacer(1, 1))
 

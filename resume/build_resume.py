@@ -150,7 +150,7 @@ story.append(achievement_bullet('<b>Won 10k$ grant</b> — "Student Startup" com
 story.append(Spacer(1, 2.5*mm))
 
 # Team Avulus
-story.append(Paragraph('Team Avulus — Professional Dota 2 Organization', s_company))
+story.append(Paragraph('Team Avulus — Professional Dota 2 Team', s_company))
 story.append(Paragraph('Data Engineer & Analyst · Oct 2024 – Apr 2026 · Remote', s_role))
 story.append(Spacer(1, 1))
 
