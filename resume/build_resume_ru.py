@@ -70,7 +70,7 @@ s_title   = style('title',   fontName='DejaVu',         fontSize=10,  leading=13
 s_contact = style('contact', fontSize=7.5, textColor=GRAY, leading=10)
 s_section = style('section', fontName='DejaVu-Bold',    fontSize=8.5, leading=11, textColor=ACCENT, spaceBefore=4)
 s_company = style('company', fontName='DejaVu-Bold',    fontSize=8.8, leading=11, textColor=DARK)
-s_role    = style('role',    fontName='DejaVu-Oblique', fontSize=7.8, leading=10, textColor=GRAY)
+s_role    = style('role',    fontName='DejaVu-Bold',    fontSize=8.2, leading=11, textColor=DARK)
 s_bullet  = style('bullet',  fontSize=7.8, leading=11,  textColor=DARK, leftIndent=8)
 s_body    = style('body',    fontSize=7.8, leading=11)
 s_small   = style('small',   fontSize=7.2, textColor=GRAY, leading=10)
@@ -83,7 +83,7 @@ def section_header(title):
     ]
 
 def achievement_bullet(text):
-    return Paragraph(f'<font name="DejaVu-Bold" color="#16A34A">▲</font> {text}', s_bullet)
+    return Paragraph(text, s_bullet)
 
 story = []
 
@@ -125,7 +125,7 @@ story += section_header('Опыт работы')
 
 # TE-Manager
 story.append(Paragraph('TE-Manager — мобильное приложение для управления задачами и эмоциями', s_company))
-story.append(Paragraph('Backend-разработчик (Go / Python) · Март 2024 — по н.в. · Удалённо, Санкт-Петербург', s_role))
+story.append(Paragraph('Backend-разработчик · Март 2024 — по н.в. · Удалённо', s_role))
 story.append(Spacer(1, 1))
 
 bullets_te = [
@@ -151,7 +151,7 @@ story.append(Spacer(1, 2.5*mm))
 
 # Team Avulus
 story.append(Paragraph('Team Avulus — профессиональная Dota 2 команда', s_company))
-story.append(Paragraph('Дата-инженер и аналитик · Октябрь 2024 — Апрель 2026 · Удалённо', s_role))
+story.append(Paragraph('Backend-разработчик, аналитик данных · Октябрь 2024 — Апрель 2026 · Удалённо', s_role))
 story.append(Spacer(1, 1))
 
 bullets_av = [
