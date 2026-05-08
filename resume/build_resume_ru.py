@@ -125,7 +125,7 @@ story += section_header('Опыт работы')
 
 # TE-Manager
 story.append(Paragraph('TE-Manager — мобильное приложение для управления задачами и эмоциями', s_company))
-story.append(Paragraph('Backend-разработчик · Март 2024 — по н.в. · Удалённо', s_role))
+story.append(Paragraph('Backend-разработчик · Март 2024 — Март 2026 (2 года 1 месяц) · Удалённо', s_role))
 story.append(Spacer(1, 1))
 
 bullets_te = [
@@ -151,7 +151,7 @@ story.append(Spacer(1, 2.5*mm))
 
 # Team Avulus
 story.append(Paragraph('Team Avulus — профессиональная Dota 2 команда', s_company))
-story.append(Paragraph('Backend-разработчик, аналитик данных · Октябрь 2024 — Апрель 2026 · Удалённо', s_role))
+story.append(Paragraph('Backend-разработчик, аналитик данных · Октябрь 2024 — Апрель 2026 (1 год 7 месяцев) · Удалённо', s_role))
 story.append(Spacer(1, 1))
 
 bullets_av = [

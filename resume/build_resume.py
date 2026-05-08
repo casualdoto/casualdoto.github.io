@@ -125,7 +125,7 @@ story += section_header('Experience')
 
 # TE-Manager
 story.append(Paragraph('TE-Manager — Task & Emotion Management App (Startup)', s_company))
-story.append(Paragraph('Backend Developer · Mar 2024 – Present · Remote', s_role))
+story.append(Paragraph('Backend Developer · Mar 2024 – Mar 2026 (2 years 1 month) · Remote', s_role))
 story.append(Spacer(1, 1))
 
 bullets_te = [
@@ -151,7 +151,7 @@ story.append(Spacer(1, 2.5*mm))
 
 # Team Avulus
 story.append(Paragraph('Team Avulus — Professional Dota 2 Team', s_company))
-story.append(Paragraph('Backend Developer & Data Analyst · Oct 2024 – Apr 2026 · Remote', s_role))
+story.append(Paragraph('Backend Developer & Data Analyst · Oct 2024 – Apr 2026 (1 year 7 months) · Remote', s_role))
 story.append(Spacer(1, 1))
 
 bullets_av = [
