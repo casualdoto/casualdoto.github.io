@@ -193,7 +193,7 @@ story.append(st)
 # ── EDUCATION ──────────────────────────────────────────────────────────────────
 story += section_header('Education')
 story.append(Paragraph('Peter the Great St. Petersburg Polytechnic University', s_company))
-story.append(Paragraph('B.Sc. Mathematical Software & Information Systems Administration · 2022 – 2026 (in progress)', s_role))
+story.append(Paragraph('B.Sc. Mathematical Software & Information Systems Administration · 2022 – 2026', s_role))
 story.append(Paragraph('Core coursework: Databases, Discrete Mathematics, Programming, Systems Administration', s_small))
 
 # ── LINKS ──────────────────────────────────────────────────────────────────
