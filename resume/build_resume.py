@@ -125,7 +125,7 @@ story += section_header('Experience')
 
 # TE-Manager
 story.append(Paragraph('TE-Manager — Task & Emotion Management App (Startup)', s_company))
-story.append(Paragraph('Backend Developer · Mar 2024 – Now (2.5 yrs+) · Remote', s_role))
+story.append(Paragraph('Backend Developer · Mar 2024 – Now (2.5 years+) · Remote', s_role))
 story.append(Spacer(1, 1))
 
 bullets_te = [
