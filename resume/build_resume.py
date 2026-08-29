@@ -113,7 +113,7 @@ story.append(HRFlowable(width='100%', thickness=1.5, color=ACCENT, spaceAfter=1)
 # ── SUMMARY ──────────────────────────────────────────────────────────────────
 story += section_header('Professional Summary')
 story.append(Paragraph(
-    'Backend engineer with 2+ years of production Go experience — from greenfield microservice architecture '
+    'Backend engineer with 3 years of production Go experience — from greenfield microservice architecture '
     'to real-time data pipelines. Built systems that won a <b>10k$ grant</b> '
     'and supported a pro esports team earning <b>$300K+ in prize money</b>. '
     'Owns the full backend lifecycle: API design, infra, security hardening, delivery.',
@@ -125,7 +125,7 @@ story += section_header('Experience')
 
 # TE-Manager
 story.append(Paragraph('TE-Manager — Task & Emotion Management App (Startup)', s_company))
-story.append(Paragraph('Backend Developer · Mar 2024 – Mar 2026 (2 years 1 month) · Remote', s_role))
+story.append(Paragraph('Backend Developer · Mar 2024 – Now (2.5 yrs+) · Remote', s_role))
 story.append(Spacer(1, 1))
 
 bullets_te = [
