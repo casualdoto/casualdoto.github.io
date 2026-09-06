@@ -1,0 +1,108 @@
+# Shared facts live once; translated prose is paired under ru/en.
+name:
+  ru: Даниил Хрестьяновский
+  en: Daniil Khrestianovskii
+title: Go Backend Developer
+location:
+  ru: Санкт-Петербург, Россия
+  en: Saint Petersburg, Russia
+contacts:
+  - {text: khrestyanovskii@gmail.com, url: 'mailto:khrestyanovskii@gmail.com'}
+  - {text: '+7 952 267-09-41', url: 'tel:+79522670941'}
+  - {text: 'Telegram: @dankhrestyan', url: 'https://t.me/dankhrestyan'}
+  - {text: 'Github: github.com/casualdoto', url: 'https://github.com/casualdoto'}
+  - {text: 'Portfolio: casualdoto.github.io', url: 'https://casualdoto.github.io'}
+summary:
+  ru: Go backend-разработчик с 3 годами опыта. Разрабатываю API и микросервисы, работаю с PostgreSQL и Redis, разворачиваю и поддерживаю backend-сервисы. Имею опыт работы со смежными командами и руководства небольшой командой.
+  en: Go backend developer with 3 years of experience building APIs and microservices and working with databases. Experienced in cross-functional collaboration and leading a small team.
+experience:
+  - company: TE-Manager
+    description:
+      ru: Приложение для управления задачами и эмоциями
+      en: Task and emotion management app
+    role:
+      ru: Backend-разработчик
+      en: Backend Developer
+    start: '2023-09'
+    end: null
+    remote: true
+    bullets:
+      - ru: Реализовал микросервисную архитектуру на Go и FastAPI, мигрировал монолитный Flask API в независимые микросервисы.
+        en: Implemented microservice architecture using Go and FastAPI, migrated monolithic Flask API into independent microservices.
+        note:
+          ru: Разработал и поддерживал более 5 микросервисов.
+          en: Developed and maintained more than 5 microservices.
+      - ru: Реализовал сервис подписок, подключил API ЮKassa для приема платежей от пользователей.
+        en: Implemented subscription service and integrated YooKassa API for payment processing.
+      - ru: Реализовал JWT-авторизацию, отзыв токенов через Redis и OAuth2-вход через Google и Яндекс.
+        en: Implemented JWT authentication, token revocation with Redis, and OAuth2 sign-in with Google and Yandex.
+      - ru: Добавил ограничение частоты запросов и кэширование кодов подтверждения в Redis.
+        en: Added Redis-backed rate limiting and verification code caching.
+      - ru: Развернул инфраструктуру в Yandex Cloud с PostgreSQL, Nginx, TLS, подключил Object Storage(S3-совместимый); настроил Docker Compose и реализовал документацию OpenAPI.
+        en: Set up infrastructure in Yandex Cloud with PostgreSQL, Nginx, and TLS; integrated S3-compatible Object Storage; configured Docker Compose and documented the API with OpenAPI.
+    note:
+      ru: 'Команда проекта выиграла грант 1 млн рублей: «Студенческий стартап», V очередь, 2024.'
+      en: 'The project team won a RUB 1 million grant in the Student Startup competition, round V, 2024.'
+  - company: Team Avulus
+    description:
+      ru: Профессиональная киберспортивная команда по Dota 2
+      en: Professional Dota 2 esports team
+    role:
+      ru: Backend-разработчик и аналитик данных
+      en: Backend Developer & Data Analyst
+    start: '2024-10'
+    end: '2026-04'
+    remote: true
+    bullets:
+      - ru: Разработал и развернул Go-сервис, который собирает данные из OpenDota, STRATZ и Spectral.gg и формирует статистические отчёты для тренерского штаба.
+        en: Developed and deployed a Go service that collects data from OpenDota, STRATZ, and Spectral.gg and generates statistical reports for the coaching staff.
+      - ru: Автоматизировал сбор и обработку данных о соперниках на Python с Pandas, NumPy и MySQL.
+        en: Automated opponent data collection and processing using Python, Pandas, NumPy, and MySQL.
+        note:
+          ru: Время подготовки к матчу сократилось с ~4 ч до ~30 мин.
+          en: Match preparation time decreased from ~4 hours to ~30 minutes.
+      - ru: Настроил генерацию аналитических отчётов и визуализаций для подготовки к матчам.
+        en: Automated analytics reports and visualizations to support match preparation.
+      - ru: Писал сложные SQL-запросы для анализа данных по матчам и игрокам, создавал графики в Datawrapper.
+        en: Wrote complex SQL queries for analyzing match and player data, and created visualizations in Datawrapper.
+    note:
+      ru: 'За время моей работы команда заработала более $300 000 призовых, заняла 1-е место на RES Regional Champions, 4-е место на CCT Series 5, 5–6-е место на ESL One Bangkok 2024 и трижды выиграла квалификации.'
+      en: 'During my tenure, the team earned over $300,000 in prize money, secured 1st place at RES Regional Champions, 4th place at CCT Series 5, 5–6th place at ESL One Bangkok 2024, and won three qualifiers.'
+skills:
+  - label: {ru: Языки программирования, en: Programming languages}
+    value: Go, Python
+  - label: {ru: Базы данных, en: Databases}
+    value: PostgreSQL, MySQL, ClickHouse, MongoDB, Redis
+  - label: {ru: Брокеры сообщений, en: Messaging}
+    value: Kafka, RabbitMQ
+  - label: {ru: API и протоколы, en: APIs & protocols}
+    value: REST, gRPC, HTTP, TCP
+  - label: {ru: Тестирование, en: Testing}
+    value: Unit Testing, Integration Testing, Testify
+  - label: {ru: Мониторинг, en: Monitoring}
+    value: Prometheus, Grafana
+  - label: {ru: Инструменты и инфраструктура, en: Tools & infrastructure}
+    value: Docker, Linux, CI/CD, Git, DataWrapper, OpenAPI, Yandex Cloud
+languages:
+  ru: Английский — B2
+  en: English — B2
+education:
+  - institution:
+      ru: Уральский федеральный университет
+      en: Ural Federal University
+    degree: {ru: Магистратура, en: "Master’s program"}
+    program: {ru: Программная инженерия, en: Software Engineering}
+    code: '09.04.04'
+    start: '2026'
+    end: '2028'
+    status: {ru: 'Обучаюсь в данный момент', en: 'In progress'}
+  - institution:
+      ru: Санкт-Петербургский политехнический университет Петра Великого
+      en: Peter the Great St. Petersburg Polytechnic University
+    degree: {ru: Бакалавриат, en: "Bachelor’s degree"}
+    program:
+      ru: Математическое обеспечение и администрирование информационных систем
+      en: Mathematical Software and Information Systems Administration
+    code: '02.03.03'
+    start: '2022'
+    end: '2026'

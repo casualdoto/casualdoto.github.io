@@ -5,7 +5,7 @@ title:
 logo: "/images/picture.png?raw=true"
 
 description:
-  en:
+  en: >-
     <p align="center">
     Saint Petersburg, Russia
     <br> Telegram @dankhrestyan
@@ -17,11 +17,13 @@ description:
     <p align="justify">
     I am a <b>backend developer and data analyst</b> who loves learning new things and implementing ideas.
     <br><br>
-    I am pursuing a <b>bachelor's degree at Saint Petersburg Polytechnic University</b>, where I deeply study databases, programming, and discrete mathematics in the field of <b>"Mathematical Software and Information Systems Administration"</b>.
+    I am studying in the <b>Master’s program in Software Engineering (09.04.04) at Ural Federal University</b>, 2026–2028.
+    <br><br>
+    Bachelor’s program at <b>Peter the Great St. Petersburg Polytechnic University</b>, 2022–2026: <b>Mathematical Software and Information Systems Administration (02.03.03)</b>.
     <br><br>
     </p>
 
-  ru:
+  ru: >-
     <p align="center">
     Санкт-Петербург, Россия
     <br> Telegram @dankhrestyan
@@ -33,7 +35,9 @@ description:
     <p align="justify">
     Я <b>бэкенд разработчик и аналитик данных</b>, который любит изучать новое и реализовывать идеи.
     <br><br>
-    Я получаю <b>образование бакалавра в Санкт-Петербургском Политехническом университете</b>, где глубоко изучаю базы данных, программирование и дискретную математику на направлении <b>"Математическое обеспечение и администрирование информационных систем"</b>.
+    Я учусь в <b>магистратуре Уральского федерального университета (УрФУ)</b> по направлению <b>«Программная инженерия» (09.04.04)</b>, 2026–2028.
+    <br><br>
+    Бакалавриат в <b>Санкт-Петербургском политехническом университете Петра Великого</b>, 2022–2026: <b>«Математическое обеспечение и администрирование информационных систем» (02.03.03)</b>.
     <br><br>
     </p>
   
